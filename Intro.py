@@ -15,59 +15,59 @@ st.set_page_config(page_title="Bitácora de clase", page_icon="📒", layout="wi
 SITIO = "https://sites.google.com/view/aplicacionesdeia/inicio"
 
 ENLACES = {
-    "primer_trabajo": "https://miprimertrabajitojiijiji.streamlit.app/",
-    "morse": "https://textoaaudio-e8atvrosvirkgucq7yfhqu.streamlit.app/",
-    "traductor": "https://traductor1-cud5mwbxqpnw9mfi4bmj2t.streamlit.app/",
-    "ocr": "https://8a3mzxo4ahszf7kz2u9jwk.streamlit.app/",
-    "ocr_morse": "https://ocr-audio-fw4c98qxulwsqkkzzdsnau.streamlit.app/",
-    "yolo": "https://l37bxo8txruhjusy2ug4sz.streamlit.app/",
-    "wordcloud": "https://wordcloud-hbdsnmemycyswji6j2cavb.streamlit.app/",
-    "sentimientos": "https://sentiment-6fgn5um9ucappfxvluu3c3f.streamlit.app/",
-    "tdf": "https://52uipfxaqbfkuwqbixdcji.streamlit.app/",
-    "samuel": "https://detector-de-paz-cnymgqrevh7u6rwmkrzpih.streamlit.app/",
-    "tablero_inteligente": "https://drawrecog-ctizhf5hergbd67xemxkvs.streamlit.app/",
-    "digitos": "https://mnistpred-8w5uuho8jcqfnbhkdultgo.streamlit.app/",
-    "tablero_dibujo": "https://tablero-bm2vwtpxghzkj9nciqt4jh.streamlit.app/",
-    "tablero_terror": "https://bitacora-ykmsmns2h4xoopavt7mni2.streamlit.app/",
-    "mqtt_control": "https://iswuxstfarrgyemaeda7bm.streamlit.app/",
-    "mqtt_lector": "https://receptor-bexlqe23gjmfpulm3pdqct.streamlit.app/",
-    "control_voz": "https://ctrlvoice-gvks7v9n4cyergxxxfhybp.streamlit.app/",
-    "plantas": "https://visionapp-hwnwwkumtaxpztwxcusezw.streamlit.app/",
-    "rag": "https://chatpdf-r6sxcbg5bfciwgrtyehqcz.streamlit.app/",
+    "primer_trabajo": "https://clase-multimodal-nmc8dpstqyjvmxchmpyanz.streamlit.app/",
+    "morse": "https://zumprnqskp89dqj6szidhu.streamlit.app/",
+    "traductor": "https://jkjlkjkkjkj.streamlit.app/",
+    "ocr": "https://8f2elmawezvrr67ejhmnou.streamlit.app/",
+    "ocr_morse": "https://ocr-audio-gwbrpqz9tgwhk2j2n5ebre.streamlit.app/",
+    "yolo": "https://hjhwe2zbbvpyevunzku8gn.streamlit.app/",
+    "wordcloud": "https://wordcloud-e3w7v3751l5.streamlit.app/",
+    "sentimientos": "https://sentiment-smvfguulr2bgrh5en2x3wr.streamlit.app/",
+    "tdf": "https://wh63whnb5ed4tvvnkbkr7z.streamlit.app/",
+    "samuel": "https://detector-de-paz-dzw2akjvwst5v2deshp2jj.streamlit.app/",
+    "tablero_inteligente": "https://drawrecog-qi7xwyweqxihpzpmvt2vcf.streamlit.app/",
+    "digitos": "https://mnistpred-asmegbwmjuguh5fzvqvy2z.streamlit.app/",
+    "tablero_dibujo": "https://tablero-mcthchpcxxmck5f9lmstmd.streamlit.app/",
+    "tablero_terror": "https://historiasinfant-m5slvr7emrgcz7nm9aqbpj.streamlit.app/",
+    "mqtt_control": "https://sendcmqtt-sayuhu2g3mwdmschezjwke.streamlit.app/",
+    "mqtt_lector": "https://recepmqtt-9ptyc3h2yp8jzeosrhjxpp.streamlit.app/",
+    "control_voz": "https://ctrlvoice-jldxcxlr6drl4w3pvmgkdt.streamlit.app/",
+    "plantas": "https://visionapp-hakceuepzuhn8sjudhn9lk.streamlit.app/",
+    "rag": "https://chatpdf-gecudpt2viptlspgnc7ssi.streamlit.app/",
 }
 # =====================================================================
 
 TAM_IMG = (600, 400)
 
-# color principal, color suave, color de degradado
+# color principal, color suave, color de degradado, icono, descripción
 AREAS = {
-    "Voz y audio": ("#0B8F80", "#D5F2EE", "#7FDAD0"),
-    "Visión": ("#2F5FD6", "#DCE6FB", "#8EB0F5"),
-    "Texto e IA": ("#7440DB", "#E8DFFA", "#B99AF3"),
-    "Dibujo": ("#D2461C", "#FADED4", "#F5A98E"),
-    "IoT": ("#B87400", "#FCEBC2", "#F5C65C"),
+    "Voz y audio": ("#0B8F80", "#D5F2EE", "#7FDAD0", "🎧", "Convierte voz, texto y audio entre formatos e idiomas."),
+    "Visión": ("#2F5FD6", "#DCE6FB", "#8EB0F5", "👁️", "Modelos que ven: texto, objetos, rostros y plantas."),
+    "Texto e IA": ("#7440DB", "#E8DFFA", "#B99AF3", "💬", "Análisis y generación de lenguaje con inteligencia artificial."),
+    "Dibujo": ("#D2461C", "#FADED4", "#F5A98E", "🖌️", "Tableros donde la IA interpreta lo que dibujas."),
+    "IoT": ("#B87400", "#FCEBC2", "#F5C65C", "📟", "Controla y monitorea dispositivos conectados por MQTT."),
 }
 
 ACTIVIDADES = [
-    ("primer_trabajo", "Primer trabajo", "🔊", "Voz y audio", "vapoi.jpg", "Aplicación que convierte texto en audio.", "Texto a voz"),
-    ("morse", "Texto a código Morse (audio)", "📡", "Voz y audio", "morse1.png", "Aplicación que usa la conversión de voz a texto.", "Voz a texto"),
-    ("traductor", "Traductor", "🌍", "Voz y audio", "trad.png", "Traduce tu voz o un audio a otro idioma.", "Traductor"),
-    ("ocr", "OCR", "🔎", "Visión", "ocr.png", "Reconoce texto en imágenes y lo muestra en pantalla.", "OCR"),
-    ("ocr_morse", "OCR a Morse", "📝", "Visión", "ocraudio.png", "Reconoce texto en imágenes y lo convierte a código Morse.", "OCR a Morse"),
-    ("yolo", "Entrenando modelos", "🧠", "Visión", "reco.jpg", "Este modelo reconoce objetos en imágenes.", "YOLO entrenado"),
+    ("primer_trabajo", "Primer trabajo", "🗣️", "Voz y audio", "vapoi.jpg", "Aplicación que convierte texto en audio.", "Texto a voz"),
+    ("morse", "Texto a código Morse (audio)", "📻", "Voz y audio", "morse1.png", "Convierte la voz en texto y lo transforma en código Morse.", "Morse"),
+    ("traductor", "Traductor", "🌐", "Voz y audio", "trad.png", "Traduce tu voz o un audio a otro idioma.", "Traductor"),
+    ("ocr", "OCR", "🔍", "Visión", "ocr.png", "Reconoce texto en imágenes y lo muestra en pantalla.", "OCR"),
+    ("ocr_morse", "OCR a Morse", "📠", "Visión", "ocraudio.png", "Reconoce texto en imágenes y lo convierte a código Morse.", "OCR a Morse"),
+    ("yolo", "Entrenando modelos", "🎯", "Visión", "reco.jpg", "Este modelo reconoce objetos en imágenes.", "YOLO entrenado"),
     ("wordcloud", "WordCloud", "☁️", "Texto e IA", "nube.jpg", "Genera una nube de palabras.", "WordCloud"),
-    ("sentimientos", "Detector de sentimientos", "😊", "Texto e IA", "senti.jpg", "Ingresa un texto y te dice si es positivo, negativo o neutro.", "Sentimientos"),
-    ("tdf", "TDF", "❓", "Texto e IA", "pregunta.jpg", "Sube un texto y aparecerán preguntas con base en él.", "TDF"),
-    ("samuel", "Detector de Samuel", "✨", "Visión", "samu.jpg", "Toma una foto y detecta si está el estudiante que realizó estas actividades.", "Detector"),
-    ("tablero_inteligente", "Tablero Inteligente", "🧑‍🏫", "Dibujo", "Tablero.png", "Dibuja el boceto en el panel y presiona el botón para analizarlo.", "Tablero Inteligente"),
-    ("digitos", "Detección de Dígitos Escritos a Mano", "✍️", "Dibujo", "numeros.jpg", "Dibuja un dígito y la página lo detectará y reconocerá.", "Dígitos"),
+    ("sentimientos", "Detector de sentimientos", "🎭", "Texto e IA", "senti.jpg", "Ingresa un texto y te dice si es positivo, negativo o neutro.", "Sentimientos"),
+    ("tdf", "TDF", "🧩", "Texto e IA", "pregunta.jpg", "Sube un texto y aparecerán preguntas con base en él.", "TDF"),
+    ("samuel", "Detector de Samuel", "🕵️", "Visión", "samu.jpg", "Toma una foto y detecta si está el estudiante que realizó estas actividades.", "Detector"),
+    ("tablero_inteligente", "Tablero Inteligente", "🧠", "Dibujo", "Tablero.png", "Dibuja el boceto en el panel y presiona el botón para analizarlo.", "Tablero Inteligente"),
+    ("digitos", "Detección de Dígitos Escritos a Mano", "🔢", "Dibujo", "numeros.jpg", "Dibuja un dígito y la página lo detectará y reconocerá.", "Dígitos"),
     ("tablero_dibujo", "Tablero para dibujo", "🎨", "Dibujo", "dibujo.jpg", "Dibuja libremente lo que quieras.", "Tablero de dibujo"),
-    ("tablero_terror", "Tablero del Terror", "🕯️", "Dibujo", "terror.jpg", "Dibuja algo en el tablero y crea una historia de terror relacionada con el dibujo.", "Tablero del Terror"),
-    ("mqtt_control", "MQTT Control", "🎛️", "IoT", "control.jpg", "Envía órdenes y valores analógicos a tu dispositivo por MQTT.", "MQTT Control"),
-    ("mqtt_lector", "Lector de Sensor MQTT", "📡", "IoT", "recep.jpg", "Consulta el último mensaje publicado por tu sensor en tiempo real.", "Lector MQTT"),
+    ("tablero_terror", "Tablero del Terror", "👻", "Dibujo", "terror.jpg", "Dibuja algo en el tablero y crea una historia de terror relacionada con el dibujo.", "Tablero del Terror"),
+    ("mqtt_control", "MQTT Control", "🕹️", "IoT", "control.jpg", "Envía órdenes y valores analógicos a tu dispositivo por MQTT.", "MQTT Control"),
+    ("mqtt_lector", "Lector de Sensor MQTT", "📶", "IoT", "recep.jpg", "Consulta el último mensaje publicado por tu sensor en tiempo real.", "Lector MQTT"),
     ("control_voz", "Control por voz", "🎙️", "IoT", "voz.png", "Controla tu dispositivo por voz.", "Control por voz"),
-    ("plantas", "Análisis de plantas", "🌿", "Visión", "plantas.png", "Toma la foto de una planta, reconocerá el tipo y te dirá sus cuidados.", "Análisis de plantas"),
-    ("rag", "Generación Aumentada por Recuperación (RAG)", "📚", "Texto e IA", "pdf.jpg", "Este agente te ayudará a realizar análisis sobre el PDF cargado.", "RAG"),
+    ("plantas", "Análisis de plantas", "🪴", "Visión", "plantas.png", "Toma la foto de una planta, reconocerá el tipo y te dirá sus cuidados.", "Análisis de plantas"),
+    ("rag", "Generación Aumentada por Recuperación (RAG)", "🗂️", "Texto e IA", "pdf.jpg", "Este agente te ayudará a realizar análisis sobre el PDF cargado.", "RAG"),
 ]
 
 # ---------- Estilos ----------
@@ -123,6 +123,23 @@ st.markdown(
     div[role="radiogroup"] > label:has(input:checked) { background: #10263A; }
     div[role="radiogroup"] > label:has(input:checked) p { color: #FFFFFF; }
 
+    /* Encabezado de categoría */
+    .seccion { display: flex; align-items: center; gap: 16px; margin: 38px 0 6px 0; }
+    .seccion-icono {
+        width: 58px; height: 58px; flex: none; border-radius: 18px; font-size: 1.9rem;
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 6px 16px rgba(16,38,58,.12);
+    }
+    .seccion h2 {
+        font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 1.7rem;
+        line-height: 1.1; margin: 0; padding: 0; color: #10263A;
+    }
+    .seccion span.sub { display: block; margin-top: 4px; font-size: .98rem; color: #4A6275; }
+    .seccion .cuenta {
+        margin-left: auto; flex: none; font-weight: 700; font-size: .85rem;
+        padding: 6px 14px; border-radius: 999px; background: #FFFFFF;
+    }
+
     /* Cuadrícula de tarjetas */
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 22px; margin-top: 18px; }
     .card {
@@ -139,10 +156,17 @@ st.markdown(
         padding: 5px 13px; border-radius: 999px; background: #FFFFFF;
         box-shadow: 0 2px 8px rgba(0,0,0,.15);
     }
+    .insignia {
+        position: absolute; right: 14px; bottom: -22px; width: 54px; height: 54px;
+        border-radius: 16px; background: #FFFFFF; font-size: 1.7rem;
+        display: flex; align-items: center; justify-content: center;
+        box-shadow: 0 6px 16px rgba(16,38,58,.18);
+    }
     .cuerpo { display: flex; flex-direction: column; flex: 1; padding: 18px 20px 20px 20px; }
     .cuerpo h3 {
         font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 1.28rem;
         line-height: 1.18; margin: 0 0 8px 0; padding: 0; color: #10263A; min-height: 3em;
+        padding-right: 52px;
     }
     .cuerpo p { font-size: .96rem; line-height: 1.5; color: #4A6275; margin: 0 0 18px 0; flex: 1; }
     .abrir {
@@ -171,7 +195,7 @@ def imagen_base64(ruta):
 
 
 def tarjeta(clave, titulo, emoji, area, imagen, desc, boton):
-    color, suave, degradado = AREAS[area]
+    color, suave, degradado, _icono_area, _desc_area = AREAS[area]
     b64 = imagen_base64(imagen)
     if b64:
         portada = f'<div class="portada"><img src="data:image/jpeg;base64,{b64}" alt="">'
@@ -179,7 +203,10 @@ def tarjeta(clave, titulo, emoji, area, imagen, desc, boton):
         portada = (
             f'<div class="portada emoji" style="background:linear-gradient(135deg,{suave},{degradado})">{emoji}'
         )
-    portada += f'<span class="chip" style="color:{color}">{html.escape(area)}</span></div>'
+    portada += (
+        f'<span class="chip" style="color:{color}">{html.escape(area)}</span>'
+        f'<span class="insignia">{emoji}</span></div>'
+    )
 
     url = ENLACES.get(clave, "").strip()
     if url:
@@ -192,8 +219,23 @@ def tarjeta(clave, titulo, emoji, area, imagen, desc, boton):
 
     return (
         f'<div class="card">{portada}<div class="cuerpo">'
-        f"<h3>{emoji} {html.escape(titulo)}</h3><p>{html.escape(desc)}</p>{accion}</div></div>"
+        f"<h3>{html.escape(titulo)}</h3><p>{html.escape(desc)}</p>{accion}</div></div>"
     )
+
+
+def seccion(nombre, n):
+    color, suave, _deg, icono, desc = AREAS[nombre]
+    return (
+        f'<div class="seccion">'
+        f'<div class="seccion-icono" style="background:{suave}">{icono}</div>'
+        f'<div><h2>{html.escape(nombre)}</h2><span class="sub">{html.escape(desc)}</span></div>'
+        f'<span class="cuenta" style="color:{color}">{n} apps</span>'
+        f"</div>"
+    )
+
+
+def grid(items):
+    return '<div class="grid">' + "".join(tarjeta(*a) for a in items) + "</div>"
 
 
 # ---------- Hero ----------
@@ -203,7 +245,7 @@ st.markdown(
 <p>Todo lo que construimos en el curso de Aplicaciones de Inteligencia Artificial, en un solo lugar.</p>
 <div class="fila">
 <div class="dato"><b>{len(ACTIVIDADES)}</b>aplicaciones</div>
-<div class="dato"><b>{len(AREAS)}</b>áreas</div>
+<div class="dato"><b>{len(AREAS)}</b>categorías</div>
 <a class="btn-sitio" href="{html.escape(SITIO)}" target="_blank" rel="noopener">Ver el sitio del curso ↗</a>
 </div>
 </div>""",
@@ -212,19 +254,24 @@ st.markdown(
 
 # ---------- Filtro ----------
 conteo = {a: sum(1 for x in ACTIVIDADES if x[3] == a) for a in AREAS}
-etiquetas = {f"Todas ({len(ACTIVIDADES)})": None}
-etiquetas.update({f"{a} ({n})": a for a, n in conteo.items()})
+etiquetas = {f"✨ Todas ({len(ACTIVIDADES)})": None}
+etiquetas.update({f"{AREAS[a][3]} {a} ({n})": a for a, n in conteo.items()})
 
-elegida = st.radio("Área", list(etiquetas.keys()), horizontal=True, label_visibility="collapsed")
+elegida = st.radio("Categoría", list(etiquetas.keys()), horizontal=True, label_visibility="collapsed")
 area = etiquetas[elegida]
 
-lista = [a for a in ACTIVIDADES if area is None or a[3] == area]
-
-# ---------- Tarjetas ----------
-if lista:
-    st.markdown(
-        '<div class="grid">' + "".join(tarjeta(*a) for a in lista) + "</div>",
-        unsafe_allow_html=True,
-    )
+# ---------- Contenido ----------
+if area is None:
+    # Todas: agrupadas por categoría, cada una con su encabezado
+    bloques = []
+    for nombre in AREAS:
+        items = [a for a in ACTIVIDADES if a[3] == nombre]
+        if items:
+            bloques.append(seccion(nombre, len(items)) + grid(items))
+    st.markdown("".join(bloques), unsafe_allow_html=True)
 else:
-    st.markdown("<div class='vacio'>No hay actividades en esta área todavía.</div>", unsafe_allow_html=True)
+    items = [a for a in ACTIVIDADES if a[3] == area]
+    if items:
+        st.markdown(seccion(area, len(items)) + grid(items), unsafe_allow_html=True)
+    else:
+        st.markdown("<div class='vacio'>No hay actividades en esta categoría todavía.</div>", unsafe_allow_html=True)
